@@ -1,0 +1,176 @@
+.root {
+    -fx-background-color: transparent;
+}
+
+.button {
+    -fx-background-color: white;
+    -fx-border-radius: 99px;
+    -fx-background-radius: 99px;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.button:hover {
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.signUpButton {
+    -fx-border-color: #3e64ff;
+    -fx-text-fill: #3e64ff;
+}
+
+.signUpButton:hover {
+    -fx-background-color: #3e64ff;
+}
+
+.loginButton {
+    -fx-border-color: #851de0;
+    -fx-text-fill: #851de0;
+}
+
+.loginButton:hover {
+    -fx-background-color: #851de0;
+}
+
+.text-field {
+    -fx-background-color: white;
+    -fx-background-insets: 0, 0 0 0 0;
+    -fx-border-width: 1px;
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-accent: #fd5f00;
+}
+
+.text-field:focused {
+    -fx-text-fill: white;
+}
+
+.signUpInput {
+    -fx-border-color: #3e64ff;
+}
+
+.signUpInput:focused {
+    -fx-background-color: #3e64ff;
+}
+
+.loginInput {
+    -fx-border-color: #851de0;
+}
+
+.loginInput:focused {
+    -fx-background-color: #851de0;
+}
+
+.switchLabel {
+    -fx-cursor: hand;
+}
+
+.changeUserCircle {
+    -fx-cursor: hand;
+}
+
+.userNode {
+    -fx-background-color: #E5ECF4, white;
+    -fx-background-insets: 0, 0 1 1 0;
+}
+
+.menuNode {
+    -fx-background-color: #E5ECF4, white;
+    -fx-background-insets: 0, 0 1 1 0;
+}
+
+.settingsNode {
+    -fx-background-color: #E5ECF4, white;
+    -fx-background-insets: 0, 0 1 0 0;
+}
+
+.badge {
+    -fx-background-radius: 99px;
+}
+
+.badge:hover {
+    -fx-cursor: default;
+}
+
+.iconTextLayout:hover {
+    -fx-cursor: hand;
+    -fx-font-family: 'CourierPrime';
+}
+
+.iconText {
+    -fx-cursor: hand;
+}
+
+.exitButton {
+    -fx-background-radius: 99px;
+    -fx-opacity: 0.8;
+}
+
+.exitButton:hover {
+    -fx-opacity: 1.0;
+    -fx-cursor: hand;
+}
+
+.combo-box {
+    -fx-font-weight: bold;
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 16, -8, 0, 8);
+}
+
+.combo-box .list-cell {
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0, 1;
+    -fx-text-fill: black;
+}
+
+.combo-box:hover {
+    -fx-cursor: hand;
+}
+
+.combo-box:pressed {
+    -fx-cursor: hand;
+    -fx-background-color: rgba(255, 255, 255, 0.9);
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 16, -8, 0, 8);
+}
+
+.combo-box-popup .list-view .list-cell:hover {
+    -fx-text-fill: white;
+    -fx-background-color: #4285F4;
+    -fx-cursor: hand;
+}
+
+.combo-box .cell:selected {
+    -fx-text-fill: #4285F4;
+}
+
+.infoBox, .container {
+    -fx-background-color: white;
+}
+
+.pureInput {
+    -fx-background-color: -fx-text-box-border, -fx-background ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+
+.pureInput:focused {
+    -fx-text-fill: black;
+    -fx-background-color: -fx-focus-color, -fx-background ;
+}
+
+.sendButton {
+    -fx-background-color: rgba(1, 210, 142, 0.8);
+    -fx-text-fill: white;
+    -fx-border-radius: 99px;
+}
+
+.sendButton:hover {
+    -fx-background-color: #01d28e;
+    -fx-cursor: hand;
+}
